@@ -1,0 +1,21 @@
+
+
+ul.hobby-list > li {
+  margin: 20px;
+  width: 25%;
+  height: 10vh;
+  display: inline-block;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.35 ease-in-out 0s;
+  background: rgba(198, 200, 221, 0.6);
+  list-style-type: none;
+  color: darkmagenta;
+  font-weight: 500;
+}
+
+ul.hobby-list > li.active {
+  background: rgba(16, 22, 90, 0.5);
+  color: white;
+
+}
